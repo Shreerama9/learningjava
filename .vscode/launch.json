@@ -1,0 +1,378 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListExample",
+            "request": "launch",
+            "mainClass": "ArrayListExample",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinSearch",
+            "request": "launch",
+            "mainClass": "DSA.BinarySearch.BinSearch",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch OrderAgnosticBS",
+            "request": "launch",
+            "mainClass": "DSA.BinarySearch.OrderAgnosticBS",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RowColMatrix",
+            "request": "launch",
+            "mainClass": "DSA.BinarySearch.RowColMatrix",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortedMatrix",
+            "request": "launch",
+            "mainClass": "DSA.BinarySearch.SortedMatrix",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvenDigit",
+            "request": "launch",
+            "mainClass": "DSA.EvenDigit",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMin",
+            "request": "launch",
+            "mainClass": "DSA.FindMin",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearSearchAlgo",
+            "request": "launch",
+            "mainClass": "DSA.LinearSearchAlgo",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PProgramming",
+            "request": "launch",
+            "mainClass": "DSA.PProgramming",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Performance",
+            "request": "launch",
+            "mainClass": "DSA.Performance",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Search2DarrBool",
+            "request": "launch",
+            "mainClass": "DSA.Search2DarrBool",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchCharinString",
+            "request": "launch",
+            "mainClass": "DSA.SearchCharinString",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchIn2DArr",
+            "request": "launch",
+            "mainClass": "DSA.SearchIn2DArr",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInRange",
+            "request": "launch",
+            "mainClass": "DSA.SearchInRange",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchString",
+            "request": "launch",
+            "mainClass": "DSA.SearchString",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CyclicSOrt",
+            "request": "launch",
+            "mainClass": "DSA.SortingAlgorithm.CyclicSOrt",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSortAlgo",
+            "request": "launch",
+            "mainClass": "DSA.SortingAlgorithm.InsertionSortAlgo",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaMissNumCycSort",
+            "request": "launch",
+            "mainClass": "DSA.SortingAlgorithm.JavaMissNumCycSort",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MissingNumCyclic",
+            "request": "launch",
+            "mainClass": "DSA.SortingAlgorithm.MissingNumCyclic",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortAlgo",
+            "request": "launch",
+            "mainClass": "DSA.SortingAlgorithm.SortAlgo",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilder",
+            "request": "launch",
+            "mainClass": "DSA.StringBuilder",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch maxWealth",
+            "request": "launch",
+            "mainClass": "DSA.maxWealth",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfElse",
+            "request": "launch",
+            "mainClass": "IfElse",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MealCost",
+            "request": "launch",
+            "mainClass": "MealCost",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySeachRec",
+            "request": "launch",
+            "mainClass": "Recursion.BinarySeachRec",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Comcept",
+            "request": "launch",
+            "mainClass": "Recursion.Ez.Comcept",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch DgtProduct",
+            "request": "launch",
+            "mainClass": "Recursion.Ez.DgtProduct",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialREc",
+            "request": "launch",
+            "mainClass": "Recursion.Ez.FactorialREc",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RevNum",
+            "request": "launch",
+            "mainClass": "Recursion.Ez.RevNum",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfDigits",
+            "request": "launch",
+            "mainClass": "Recursion.Ez.SumOfDigits",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfNRec",
+            "request": "launch",
+            "mainClass": "Recursion.Ez.SumOfNRec",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch nto1",
+            "request": "launch",
+            "mainClass": "Recursion.Ez.nto1",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciSeries",
+            "request": "launch",
+            "mainClass": "Recursion.FibonacciSeries",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountZeros",
+            "request": "launch",
+            "mainClass": "Recursion.Questions.CountZeros",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortRec",
+            "request": "launch",
+            "mainClass": "Recursion.Questions.MergeSortRec",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumofStepsto01342",
+            "request": "launch",
+            "mainClass": "Recursion.Questions.NumofStepsto01342",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeNum",
+            "request": "launch",
+            "mainClass": "Recursion.Questions.PalindromeNum",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSortRec",
+            "request": "launch",
+            "mainClass": "Recursion.Questions.SelectionSortRec",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "Recursion.Questions.TwoSum",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubbleSort",
+            "request": "launch",
+            "mainClass": "Recursion.Questions.bubbleSort",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch isSorted",
+            "request": "launch",
+            "mainClass": "Recursion.Questions.isSorted",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch linearSearchRec",
+            "request": "launch",
+            "mainClass": "Recursion.Questions.linearSearchRec",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch StarPattern",
+            "request": "launch",
+            "mainClass": "Recursion.StarPattern",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch introRecursion",
+            "request": "launch",
+            "mainClass": "Recursion.introRecursion",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch mergSor",
+            "request": "launch",
+            "mainClass": "Recursion.mergSor",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScalarClass",
+            "request": "launch",
+            "mainClass": "ScalarClass",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swap",
+            "request": "launch",
+            "mainClass": "Swap",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch revArr",
+            "request": "launch",
+            "mainClass": "revArr",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseArr",
+            "request": "launch",
+            "mainClass": "reverseArr",
+            "projectName": "learningjava_ab5708a0"
+        }
+    ]
+}
