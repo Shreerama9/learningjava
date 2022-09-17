@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch basicQues",
+            "request": "launch",
+            "mainClass": "Recursion.Subset_Strings.basicQues",
+            "projectName": "learningjava_ab5708a0"
+        },
+        {
+            "type": "java",
             "name": "Launch main",
             "request": "launch",
             "mainClass": "LinkedList.main",
