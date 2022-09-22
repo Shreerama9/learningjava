@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Subset",
+      "request": "launch",
+      "mainClass": "Recursion.Subset_Strings.Subset",
+      "projectName": "learningjava_ab5708a0"
+    },
+    {
+      "type": "java",
+      "name": "Launch asciival",
+      "request": "launch",
+      "mainClass": "Recursion.Subset_Strings.asciival",
+      "projectName": "learningjava_ab5708a0"
+    },
+    {
+      "type": "java",
       "name": "Launch Subseq",
       "request": "launch",
       "mainClass": "Recursion.Subset_Strings.Subseq",
