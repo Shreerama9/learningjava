@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Permutations",
+      "request": "launch",
+      "mainClass": "Recursion.Permutations.Permutations",
+      "projectName": "learningjava_ab5708a0"
+    },
+    {
+      "type": "java",
       "name": "Launch Subset",
       "request": "launch",
       "mainClass": "Recursion.Subset_Strings.Subset",
