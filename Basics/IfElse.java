@@ -5,10 +5,10 @@ public class IfElse {
 		int var;
 
 		System.out.println("Input Number : ");
-		Scanner Input = new Scanner(System.in);
+		Scanner Inp = new Scanner(System.in);
 
-		var = Input.nextInt();
-
+		var = Inp.nextInt();
+		Inp.close();
 		// In block diagram, the if is represented using Diamond Shape Block
 		if (var > 100) {
 			System.out.println("Omkay_Vro");

@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch PhoneNum",
+      "request": "launch",
+      "mainClass": "Recursion.LeetCodeQues.PhoneNum",
+      "projectName": "learningjava_ab5708a0"
+    },
+    {
+      "type": "java",
       "name": "Launch Permutations",
       "request": "launch",
       "mainClass": "Recursion.Permutations.Permutations",
