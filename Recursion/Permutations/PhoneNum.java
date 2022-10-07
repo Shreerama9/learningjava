@@ -1,4 +1,4 @@
-package Recursion.LeetCodeQues;
+package Recursion.Permutations;
 
 import java.util.ArrayList;
 

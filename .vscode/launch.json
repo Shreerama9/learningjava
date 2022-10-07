@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch BackTracking",
+      "request": "launch",
+      "mainClass": "Recursion.Permutations.BackTracking",
+      "projectName": "learningjava_ab5708a0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Dice4",
+      "request": "launch",
+      "mainClass": "Recursion.Permutations.Dice4",
+      "projectName": "learningjava_ab5708a0"
+    },
+    {
+      "type": "java",
       "name": "Launch PhoneNum",
       "request": "launch",
       "mainClass": "Recursion.LeetCodeQues.PhoneNum",
