@@ -4,10 +4,17 @@ import java.util.ArrayList;
 
 public class BackTracking {
     public static void main(String[] args) {
-        System.out.println(StepMaze(3, 3));
-        Path("", 3, 3);
-        System.out.println(PathRet("", 3, 3));
-        System.out.println(StepMazeObstacle(1, 1, 3, 3));
+        // System.out.println(StepMaze(3, 3));
+        // Path("", 3, 3);
+        // System.out.println(PathRet("", 3, 3));
+
+        boolean[][] maze = {
+                { true, true, true },
+                { true, false, true },
+                { true, true, true }
+        };
+
+        PathObs("", maze, 1, 1);
     }
 
     // Movement can be down and right through the maze. Calculating possible
@@ -61,23 +68,20 @@ public class BackTracking {
         return list;
     }
 
-    static int StepMazeObstacle(int obsx, int obsy, int r, int c) {
-        if (r == 1 || c == 1) {
-            return 1;
+    static void PathObs(String p, boolean[][] maze, int r, int c) {
+        if (r == maze.length - 1 && c == maze[0].length - 1) {
+            System.out.println(p);
+            return;
         }
-        // check for obstacle after every step/ stop rec
-        if (obsx == r && obsy == c) {
-            return 0;
+        if (!maze[r][c]) {
+            return;
         }
-
-        int down = StepMaze(r - 1, c);
-        int right = StepMaze(r, c - 1);
-        // int diag = StepMaze(r - 1, c - 1);
-        int total = down + right;
-        // int total = down + right + diag; //Movement possiblity when diagonal movement
-        // is permitted
-        return total;
-
+        if (r < maze.length - 1) {
+            PathObs(p + 'D', maze, r + 1, c);
+        }
+        if (c < maze.length - 1) {
+            PathObs(p + 'R', maze, r, c + 1);
+        }
     }
 
 }
