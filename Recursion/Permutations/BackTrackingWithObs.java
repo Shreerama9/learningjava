@@ -11,19 +11,19 @@ public class BackTrackingWithObs {
         System.out.println();
     }
 
-    static void PathObstacle(String p, boolean[][] maze, int obsx, int obsy) {
-        if (obsx == maze.length - 1 && obsy == maze[0].length - 1) {
+    static void PathObstacle(String p, boolean[][] maze, int r, int c) {
+        if (r == maze.length - 1 && c == maze[0].length - 1) {
             System.out.println(p);
             return;
         }
-        if (!maze[obsx][obsy]) {
+        if (!maze[r][c]) {
             return;
         }
-        if (obsx < maze.length - 1) {
-            PathObstacle(p + 'D', maze, obsx + 1, obsy);
+        if (r < maze.length - 1) {
+            PathObstacle(p + 'D', maze, r + 1, c);
         }
-        if (obsy < maze[0].length - 1) {
-            PathObstacle(p + 'R', maze, obsx, obsy + 1);
+        if (c < maze[0].length - 1) {
+            PathObstacle(p + 'R', maze, r, c + 1);
         }
     }
 

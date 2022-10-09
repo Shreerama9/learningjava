@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch BackTrackwithAllDirection",
+      "request": "launch",
+      "mainClass": "Recursion.Permutations.BackTrackwithAllDirection",
+      "projectName": "learningjava_8487f9e7"
+    },
+    {
+      "type": "java",
       "name": "Launch BackTrackingWithObs",
       "request": "launch",
       "mainClass": "Recursion.Permutations.BackTrackingWithObs",
