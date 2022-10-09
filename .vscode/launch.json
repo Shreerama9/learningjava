@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch BackTrackingWithObs",
+      "request": "launch",
+      "mainClass": "Recursion.Permutations.BackTrackingWithObs",
+      "projectName": "learningjava_8487f9e7"
+    },
+    {
+      "type": "java",
+      "name": "Launch BackTracking",
+      "request": "launch",
+      "mainClass": "Recursion.Permutations.BackTracking",
+      "projectName": "learningjava_8487f9e7"
+    },
+    {
+      "type": "java",
       "name": "Launch BackTracking",
       "request": "launch",
       "mainClass": "Recursion.Permutations.BackTracking",
